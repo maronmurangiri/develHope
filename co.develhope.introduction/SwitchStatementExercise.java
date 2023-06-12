@@ -12,11 +12,19 @@ public class SwitchStatementExercise {
         //create new scanner
         Scanner sc = new Scanner(System.in);
 
+        //create an infinite for loop
        for (;;){
+
+           //prompt the user to enter a number between 1 and 10
            System.out.println("kindly enter a number between 1 - 10: " );
+
+           //receive and asign the unputed number into variable number
            int number = sc.nextInt();
 
+           //check if the number entered is within the range of 1 and 10 all-inclusive
            if (number >= 1 && number <= 10){
+
+               //assign the number entered to its corresponding name
                switch (number){
                    case 1 -> System.out.println(number +" -> one");
                    case 2 -> System.out.println(number + " -> two");
