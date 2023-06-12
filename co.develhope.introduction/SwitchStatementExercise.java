@@ -1,13 +1,12 @@
 package co.develhope.introduction;
 
-import java.io.BufferedReader;
-import java.io.IOException;
+
 import java.io.InputStreamReader;
-import java.nio.Buffer;
+
 import java.util.Scanner;
 
 public class SwitchStatementExercise {
-    public static void main(String args[]) throws IOException {
+    public static void main(String args[]) {
 
         //create new scanner
         Scanner sc = new Scanner(System.in);
