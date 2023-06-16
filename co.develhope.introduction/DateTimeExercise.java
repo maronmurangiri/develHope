@@ -14,7 +14,7 @@ public class DateTimeExercise {
         System.out.println(daysLeftTillTheEndOfMonth+ " days left till the end of the Month");
 
         //establishing and printing days left till the end of the month
-        int daysLeftTillTheEndOfYear = LocalDate.now().lengthOfYear() - LocalDate.now().getDayOfYear();
+        int daysLeftTillTheEndOfYear = Year.of(LocalDate.now().getYear()).length() - LocalDate.now().getDayOfYear();
         System.out.println(daysLeftTillTheEndOfYear + " days left till the end of the year");
     }
 }
